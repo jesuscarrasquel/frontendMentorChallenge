@@ -11,11 +11,14 @@ body {
 .font-dark{
     font-size: 18px;
     font-weight: 700;
+    font-family: [Kumbh Sans];
 }
 
 .font-light {
     font-size: 18px;
     font-weight: 400;
+    font-family: [Kumbh Sans];
+    color: gray;
 }
 
 .container-fluid {
@@ -29,6 +32,9 @@ body {
     /* z-index: 2;  */
     height: 350px;
     margin: auto;
+    border: none;
+    box-shadow: 0px 0px 10px 1px black;
+
 }
 
 .card-img-top {
@@ -39,16 +45,38 @@ body {
     border-radius: 40px;
     width: 80px;
     height: 80px;
-    top: 20%;
+    top: 30%;
     left: calc(50% - 40px);
+}
+
+.nombre {
+    margin-top: 30px !important;
+}
+
+.ciudad {
+    margin-top: -15px !important;
+}
+
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.row {
+    /* margin-top: -15px; */
 }
 
 .bola-abajo{
     position: absolute;
-    /* z-index: 1; */
-    display: flex;
-    justify-content: flex-end;
-    margin-right: -300px;
+    right: -200px;
+    bottom: -700px;
 }
 
 .bola-arriba{
