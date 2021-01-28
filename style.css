@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  hsl(185, 75%, 39%)
+}
+
+.font-dark{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.font-light {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-fluid {
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    /* position: absolute; */
+    /* z-index: 2;  */
+    height: 350px;
+    margin: auto;
+}
+
+.card-img-top {
+    position: relative;
+}
+.avatar{
+    position: absolute;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    top: 20%;
+    left: calc(50% - 40px);
+}
+
+.bola-abajo{
+    position: absolute;
+    /* z-index: 1; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -300px;
+}
+
+.bola-arriba{
+    /* z-index: 1;  */
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -200px;
+    
+}
